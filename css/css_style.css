@@ -91,27 +91,7 @@ img{
   width:80%;
 }
 
-.resume{
-  font-family:'Inter', sans-serif;
-  width: 450px;
-  float: left;
-  margin-left:22%;
-  margin-right:15%;
-  padding: 2px;
-  font-size:12px;
-}
-.year{
-  float:right;
-  margin-top:-75px;
-}
-.name{
-  text-align:center;
-  color:green;
-  font-size:18px;
-}
-.contact_details{
-  text-align:center;
-}
+
 .para{
   font-size:12px;
   margin:auto;
