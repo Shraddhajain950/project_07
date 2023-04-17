@@ -91,6 +91,14 @@ img{
   width:80%;
 }
 
+.name{
+  text-align:center;
+  color:green;
+  font-size:20px;
+}
+.contact_details{
+  text-align:center;
+}
 .year{
   float:right;
   margin-top:-75px;
