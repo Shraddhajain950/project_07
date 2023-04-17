@@ -91,6 +91,10 @@ img{
   width:80%;
 }
 
+.year{
+  float:right;
+  margin-top:-75px;
+}
 
 .para{
   font-size:12px;
