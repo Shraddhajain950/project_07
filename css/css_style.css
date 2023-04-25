@@ -252,21 +252,6 @@ video {
   text-align: center
 }
 
-#map{
-  height: 400px;
-  width: 100%;
-}
-}
-
-/* 
- * Always set the map height explicitly to define the size of the div element
- * that contains the map. 
- */
-#map {
-  height:50%;
-  width:70%;
-}
-
 /* 
  * Optional: Makes the sample page fill the window. 
  */
@@ -275,4 +260,19 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
+  text-align: center
 }
+/* 
+ * Always set the map height explicitly to define the size of the div element
+ * that contains the map. 
+ */
+#map {
+  float: left;
+  margin-left:15%;
+  margin-right:10%;
+  padding: 2px;
+  height:50%;
+  width:70%;
+}
+
+
