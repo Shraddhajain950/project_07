@@ -219,7 +219,8 @@ img{
 .program{
   font-family: 'Inter', sans-serif;
   font-weight: bold;
-  width:50%
+  width:50%;
+  text-align: left;
 }
 .year{
   float:right;
@@ -260,28 +261,22 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  text-align: center
 }
 /* 
  * Always set the map height explicitly to define the size of the div element
  * that contains the map. 
  */
 #map {
-  float: left;
-  margin-left:15%;
-  margin-right:10%;
-  padding: 2px;
-  height:50%;
+  height:70%;
   width:70%;
+  margin-left:18%;
+}
+.google_map {
+  text-align: center;
+}
+.button {
+  text-align: center;
 }
 
-.button {
-  float: left;
-  margin-top: 5%;
-  margin-left:15%;
-  margin-right:10%;
-  padding: 2px;
-  height:100%;
-  width:70%;
-}
+
 
