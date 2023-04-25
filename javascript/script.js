@@ -9,6 +9,9 @@ function initMap() {
   const marker= new google.maps.Marker ({
    position: kaplanLatLong,
   map:map,});
+    
+ const bikeLayer = new google.maps.BicyclingLayer();
+ bikeLayer.setMap(map); 
 } 
 function AddMarkerToKaplan(){
   const marker = new google.maps.Marker({
@@ -22,7 +25,7 @@ const georssLayer = new google.maps.KmlLayer({
   });
 
   georssLayer.setMap(map);
-  
+
 }
 
 
