@@ -8,7 +8,8 @@ function initMap() {
   {center: kaplanLatLong,  zoom: 15,}); 
   const marker= new google.maps.Marker ({
    position: kaplanLatLong,
-  map:map,});
+  map:map,
+  title:"Kaplan",});
     
  const bikeLayer = new google.maps.BicyclingLayer();
  bikeLayer.setMap(map); 
@@ -26,6 +27,8 @@ const georssLayer = new google.maps.KmlLayer({
 
   georssLayer.setMap(map);
 }
+
+
 
 
 
