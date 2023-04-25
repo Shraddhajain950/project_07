@@ -242,15 +242,17 @@ video {
   display: block;
   margin: 0 auto;
 }
+
+.portfolio02 {
+  text-align: center
+}
+
 .paypal_image{
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 70%;
   height:100%;
-}
-.portfolio02 {
-  text-align: center
 }
 
 /* 
@@ -287,6 +289,7 @@ button {
   display: inline-block;
   font-size: 16px;
 }
+
 
 
 
