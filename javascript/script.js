@@ -28,10 +28,3 @@ const georssLayer = new google.maps.KmlLayer({
   georssLayer.setMap(map);
 }
 
-
-
-
-
-
-
-
