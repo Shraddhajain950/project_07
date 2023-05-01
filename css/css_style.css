@@ -35,15 +35,11 @@ img{
   max-width:100%
 }
 .statement{
-  position:relative;
-  float:right;
-  right:100px;
-  top:100px;
-  bottom:80px;
   width:85%;
   font-family: 'Inter', sans-serif;
   font-weight: bold;
   text-align:center;
+  margin: auto;
 }
 #body{
   position:relative;
@@ -55,13 +51,11 @@ img{
   font-weight: bold;
   text-align:center;
   margin: 0 auto;
-  width: 700px;
 }
 .image{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 30%;
 }
 img{
   width:350px;
@@ -72,7 +66,7 @@ img{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 30%;
+  width: 100%;
 }
 .my_art{
   font-family: 'Inter', sans-serif;
@@ -83,7 +77,6 @@ img{
   width:80%
 }
 .text {
-  padding-right:70px;
   font-family: 'Inter', sans-serif;
   text-align:center;
   font-size: 12px;
@@ -172,10 +165,8 @@ img{
 }
 .text {
   padding-right:70px;
-  font-family: 'Inter', sans-serif;
   font-size: 90%;
-  margin:auto;
-  width:100%;
+  width:80%;
 }
 .my_art{
   font-family: 'Inter', sans-serif;
@@ -190,6 +181,8 @@ img{
   margin-right: auto;
   width: 30%;
 }
+
+
 .footer{
   background-color: #333333;
   overflow: hidden;
@@ -228,6 +221,7 @@ img{
 }
 
 .para{
+  font-family: 'Inter', sans-serif;
   font-size:24px;
   margin:auto;
   width:100%;
@@ -244,6 +238,7 @@ video {
 }
 
 .portfolio02 {
+  font-family: 'Inter', sans-serif;
   text-align: center
 }
 
@@ -251,8 +246,8 @@ video {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 70%;
-  height:100%;
+  width: 1000px;
+  height:6400px;
 }
 
 /* 
