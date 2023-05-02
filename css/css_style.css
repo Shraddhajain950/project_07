@@ -32,7 +32,7 @@
 img{
   width:250px;
   height:400px;
-  max-width:100%
+  max-width:100%;
 }
 .statement{
   width:85%;
@@ -60,7 +60,7 @@ img{
 img{
   width:350px;
   height:500px;
-  max-width:100%
+  max-width:100%;
 }
 .mandala{
   display: block;
@@ -74,7 +74,7 @@ img{
   margin:auto;
   text-align:center;
   padding:20px;
-  width:80%
+  width:80%;
 }
 .text {
   font-family: 'Inter', sans-serif;
@@ -120,14 +120,14 @@ video {
   height:100%;
 }
 .portfolio02 {
-  text-align: center
-}
+  text-align: center;
+ }
 
 @media only screen and (min-width: 992px) {
 img{
   width:350px;
   height:500px;
-  max-width:100%
+  max-width:100%;
 }
 .mandala{
   width: 500px;
@@ -249,6 +249,7 @@ video {
   width: 1000px;
   height:6400px;
 }
+}
 
 /* 
  * Optional: Makes the sample page fill the window. 
@@ -275,7 +276,7 @@ body {
   text-align: center;
 }
 button {
-  background-color: #4CAF50; /* Green */
+  background-color: #4CAF50;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -283,8 +284,4 @@ button {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-}
-
-
-
-
+     }     
